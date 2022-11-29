@@ -54,6 +54,7 @@
   .tasks__button--toggleDone:hover {
     background: rgb(37, 167, 37);
     cursor: pointer;
+    transform: scale(1.3);
     
   }
   
@@ -66,5 +67,6 @@
   .tasks__button--remove:hover {
     background-color: rgb(222, 69, 69);
     cursor: pointer;
-  
+    transform: scale(1.3);
+    
   }
