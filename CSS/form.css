@@ -1,0 +1,40 @@
+.form {
+    box-shadow: 8px 8px 24px 0px rgb(208, 208, 214);
+}
+
+.form__header {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    margin-bottom: 2px;
+}
+
+.form__elements {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+@media(max-width: 767px) {
+    .form__elements {
+        grid-template-columns: 1fr;
+    }
+}
+
+.form__button {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.form__input {
+    color: rgb(48, 42, 42);
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    padding: 10px;
+}
