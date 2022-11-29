@@ -48,20 +48,23 @@
   .tasks__button--toggleDone {
     color: white;
     background: green;
+    transition: 1s;
   }
 
   .tasks__button--toggleDone:hover {
     background: rgb(37, 167, 37);
     cursor: pointer;
+    
   }
   
   .tasks__button--remove {
     background-color: firebrick;
     color: white;
+    transition: 1s;
   }
   
   .tasks__button--remove:hover {
     background-color: rgb(222, 69, 69);
     cursor: pointer;
-   
+  
   }
