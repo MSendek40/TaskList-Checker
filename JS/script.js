@@ -36,11 +36,16 @@
         });
     };
 
+    const renderTasks = () => {};
+
+    const renderButtons = () => {};
+
+
     const render = () => {
-        let htmlString = "";
+        let tasksListHTMLContent = "";
 
         for (const task of tasks) {
-            htmlString += `
+            tasksListHTMLContent += `
             <li class="tasks__item js-tasks">
             <button class="tasks__button tasks__button--toggleDone js-done">
                 ${task.done ? "✓" : ""}
@@ -56,7 +61,7 @@
           }
 
         
-        document.querySelector(".js-tasks").innerHTML = htmlString;
+        document.querySelector(".js-tasks").innerHTML = tasksListHTMLContent;
 
         bindEvents();
 

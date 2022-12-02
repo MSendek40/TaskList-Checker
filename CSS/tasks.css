@@ -59,6 +59,8 @@
   .tasks__button--remove {
     background-color: firebrick;
     color: white;
+    height: 30px;
+    width: 30px;
     transition: 1s;
   }
   
