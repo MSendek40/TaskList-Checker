@@ -29,6 +29,12 @@
     border: none;
     padding: 10px;
     flex-grow: 1;
+    transition: 1s;
+}
+
+.form__button:hover {
+    background-color: rgb(6, 146, 146);
+    transform: scale(1.1)
 }
 
 .form__input {
