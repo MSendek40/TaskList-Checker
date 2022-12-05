@@ -36,11 +36,7 @@
         });
     };
 
-    const renderTasks = () => {};
-
-    const renderButtons = () => {};
-
-
+   
     const render = () => {
         let tasksListHTMLContent = "";
 
