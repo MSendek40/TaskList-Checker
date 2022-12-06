@@ -36,10 +36,8 @@
         });
     };
 
-   
     const render = () => {
         let tasksListHTMLContent = "";
-
         for (const task of tasks) {
             tasksListHTMLContent += `
             <li class="tasks__item js-tasks">
@@ -52,15 +50,11 @@
             <button class="tasks__button tasks__button--remove js-remove">
                 🗑
             </button>
-        </li>
-                        `;
-          }
+        </li>`;
+        }
 
-        
         document.querySelector(".js-tasks").innerHTML = tasksListHTMLContent;
-
         bindEvents();
-
     };
 
     const onformSubmit = (event) => {
