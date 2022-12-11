@@ -36,6 +36,10 @@
   }
 }
 
+.tasks__item--hiden {
+  display: none;
+}
+
 .tasks__content--done {
   text-decoration: line-through;
 }
@@ -69,4 +73,13 @@
 .tasks__button--remove:hover {
   background-color: rgb(222, 69, 69);
   cursor: pointer;
+}
+
+.buttons.button {
+  background-color: teal;
+  color: white;
+  border: none;
+  padding: 10px;
+  transition: 1s;
+
 }
