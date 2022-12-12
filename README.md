@@ -1,5 +1,5 @@
 # TaskList-Checker
-![taskChecker](photo/icon.png)
+
 ![taskChecker](photo/taskChecker.gif)
  
 ## Description
