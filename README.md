@@ -1,4 +1,6 @@
 # TaskList-Checker
+
+(photo/taskChecker.gif)
  
 ## Description
 I created TaskList Checker. This is  very simple aplication for adding new tasks and preparing list below. 
