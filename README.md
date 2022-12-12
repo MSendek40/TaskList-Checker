@@ -12,5 +12,7 @@ https://msendek40.github.io/TaskList-Checker/
 - HTML
 - BEM Convention
 - JavaScript
+- Immutability
 - CSS
 - Media queries
+
