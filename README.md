@@ -2,7 +2,7 @@
 
 ## Preview
 
-![taskChecker](photo/taskChecker.gif)
+![taskChecker](C:/Dev/prace domowe/modul6-taskListChecker/photo/taskChecker.gif)
  
 ## Description
 I created TaskList Checker. This is  very simple aplication for adding new tasks and preparing list below. 
