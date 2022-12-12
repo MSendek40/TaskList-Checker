@@ -6,9 +6,10 @@
 .tasks__listItem {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   padding: 5px;
   background-color: white;
-  border: none;  
+  border: none; 
 }
 
 .tasks__header {
