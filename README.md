@@ -1,4 +1,8 @@
 # TaskList-Checker
+
+## Preview
+
+![Demonstration](photo/taskChecker.gif)!
  
 ## Description
 I created TaskList Checker. This is  very simple aplication for adding new tasks and preparing list below. 
@@ -12,5 +16,7 @@ https://msendek40.github.io/TaskList-Checker/
 - HTML
 - BEM Convention
 - JavaScript
+- Immutability
 - CSS
 - Media queries
+
